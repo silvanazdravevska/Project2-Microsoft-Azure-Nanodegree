@@ -43,7 +43,7 @@
 #
 # Server Software:        nginx/1.10.3
 # Server Hostname:        8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io
-# Server Port:            80
+# Server Port:            9000
 #
 # Document Path:          /score
 # Document Length:        33 bytes
@@ -70,4 +70,4 @@
 # Total:        114  160  28.0    172     199#
 
 
- ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer REPLACE_WITH_KEY' http://REPLACE_WITH_API_URL/score
+ ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer vGa7TStLe4rGchXjWlBxP5Awp5NgQmIP' http://c5362d10-9d67-4def-8fcf-b5aae4793bcc.southcentralus.azurecontainer.io/score
