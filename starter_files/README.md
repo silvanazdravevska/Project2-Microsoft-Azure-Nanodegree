@@ -32,27 +32,44 @@ Screenshots of "Registered Data" showing that Bankmarketing dataset is available
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Registered_Datasets_in_ML_Studio_2.png)
 
 Create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
-Screenshot showing that the experiment is shown as completed:
+Screenshots showing that the experiment is shown as completed:
+Jupyter Notebook view
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_Notebook.png)
 
-![Jupyter Notebook view](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_Notebook.png)
-
-![ML Studio view](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_ML_Studio_1.png)
+ML Studio view
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_ML_Studio_1.png)
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_ML_Studio_2.png)
 
-After the experiment run completes all the models and their metrics can be seen. The best model is at the top.
-<Screenshot of the best model after the experiment completes>
+After the experiment run completes all the models and their metrics can be seen. The best model is at the top:
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Models_%20experiment_complete.png)
+
+The Algorithm name of the best model is VotingEnsemble with AUC weighted = 0.94672. Screenshot of the best model after the experiment completes:
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Best_model_experiment_complete.png)
 
 Step 3: Deploy the Best Model
-Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests. Also download the config.json file of the best-deployed-model.
+Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests. Also download the config.json file of the best-deployed-model. Deploy the model using Azure Container Instance.
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Best_model_deployed.png)
 
 Step 4: Enable Application Insights
 Enable Application Insights and retrieve logs. Script logs.py
-<Screenshot showing that "Application insights" is enabled in the Details tab of the endpoint>
-<Screenshoot showing logs by running the provided logs.py script>
+Screenshot showing that "Application insights" is enabled in the Details tab of the endpoint
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Application_Insights_is_enabled_Details_Tab.png)
+
+Screenshot showing that "Application insights" is enabled using GitBash
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Application_Insights_is_enabled_GitBash.png)
+
+Screenshots showing logs by running the provided logs.py script in GitBash:
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/logs_1.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/logs_2.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/logs_3.png)
     
 Step 5: Swagger Documentation
-Consume the deployed model using Swagger. Azure provides a swagger.json file for the deployed model. Swagger.sh downloads the latest swagger container. File serve.py will start a Python server.
-<Screenshot showing that swagger runs on localhost showing the HTTP API methods and responses for the model>
+Consume the deployed model using Swagger. Azure provides a swagger.json file for the deployed model. Swagger.sh downloads the latest swagger container. Script serve.py will start a Python server.
+Screenshots showing that swagger runs on localhost showing the HTTP API methods and responses for the model:
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Swagger_runs_on_localhost_1.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Swagger_runs_on_localhost_2.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Swagger_runs_on_localhost_3.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Swagger_runs_on_localhost_4.png)
 
 Step 6: Consume Model Endpoints
 Interact with the trained model. Script endpoint.py
