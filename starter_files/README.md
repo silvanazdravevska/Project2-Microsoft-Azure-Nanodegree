@@ -12,7 +12,7 @@ In this project a cloud-based machine learning production model is configured, d
 8. Documentation
 
 ## Architectural Diagram
-!(https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Architectural_Diagram.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Architectural_Diagram.png)
 
 
 ## Key Steps
@@ -25,7 +25,9 @@ I used the lab Udacity and this was taken care of, so I skiped this step since I
 Step 2: Automated ML Experiment
 First the Dataset is being uploaded
 <Screenshot of "Registered Data" showing that Bankmarketing dataset is available>
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Registered_Datasets_in_ML_Studio_1.png)
 
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Registered_Datasets_in_ML_Studio_2.png)
 Create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
 <Screenshot showing that the experiment is showwn as completed>
 
