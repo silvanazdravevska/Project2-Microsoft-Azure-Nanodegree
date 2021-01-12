@@ -12,8 +12,10 @@ In this project a cloud-based machine learning production model is configured, d
 8. Documentation
 
 ## Architectural Diagram
+<p>
+    <img src="screenshots/Architectural-Diagram.png" width="220" height="240" />
+</p>
 
-![ScreenShot](/screenshots/Architectural-Diagram.png)
 
 ## Key Steps
  
