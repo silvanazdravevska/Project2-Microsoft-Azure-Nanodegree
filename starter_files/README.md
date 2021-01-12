@@ -1,5 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 
 # Project Operationalizing Machine Learning
 
@@ -15,42 +13,44 @@ In this project a cloud-based machine learning production model is configured, d
 
 ## Architectural Diagram
 
-
-
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
-
-## How to improve the project in the future
-
-
+![ScreenShot](/screenshots/Architectural Diagram.png)
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+ 
 
 Step 1: Authentication
 Creating the "Service Principal" to enter the workspace. This is a good way to authenticate to Azure ML services
 I used the lab Udacity and this was taken care of, so I skiped this step since I am not authorized to create a security principal. 
 
 Step 2: Automated ML Experiment
-Create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
+First the Dataset is being uploaded
 <Screenshot of "Registered Data" showing that Bankmarketing dataset is available>
+
+Create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
 <Screenshot showing that the experiment is showwn as completed>
+
+After the experiment run completes all the models and their metrics can be seen. The best model is at the top.
 <Screenshot of the best model after the experiment completes>
 
 Step 3: Deploy the Best Model
-Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests.
+Deploying the Best Model will allow to interact with the HTTP API service and interact with the model by sending data over POST requests. Also download the config.json file of the best-deployed-model.
 
 Step 4: Enable Application Insights
-Enable Application Insights and retrieve logs.
+Enable Application Insights and retrieve logs. Script logs.py
 <Screenshot showing that "Application insights" is enabled in the Details tab of the endpoint>
 <Screenshoot showing logs by running the provided logs.py script>
     
 Step 5: Swagger Documentation
-Consume the deployed model using Swagger.
+Consume the deployed model using Swagger. Azure provides a swagger.json file for the deployed model. Swagger.sh downloads the latest swagger container. File serve.py will start a Python server.
 <Screenshot showing that swagger runs on localhost showing the HTTP API methods and responses for the model>
 
 Step 6: Consume Model Endpoints
-Interact with the trained model.
+Interact with the trained model. Script endpoint.py
 <Screenshot showing that the endpoint.py script runs against the API producing JSON output from the model>
+    
+Benchmark
+Load-test the model
+<Screenshot showing that Apache Benchmark (ab) runs against the HTTP API using authenthication keys ti retreive performance results>
 
 Step 7: Create, Publish and Consume a Pipeline
 <Screenshot The pipeline section, showing the pipeline has been created>
@@ -62,17 +62,13 @@ Step 7: Create, Publish and Consume a Pipeline
     
     
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate  
     
-    
-    
-    
-Benchmark
-Load-test the model
-<Screenshot showing that Apache Benchmark (ab) runs against the HTTP API using authenthication keys ti retreive performance results>
-    
-    
-    
+   
+## How to improve the project in the future    
+Collect more data to improve the model accuracy
+Data cleaning and feature engineering will be helpful in improving data quality
+Try different models with hypertuned parameters   
     
     
 
