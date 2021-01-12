@@ -13,7 +13,7 @@ In this project a cloud-based machine learning production model is configured, d
 
 ## Architectural Diagram
 
-![ScreenShot](/screenshots/Architectural Diagram.png)
+![ScreenShot](/screenshots/Architectural-Diagram.png)
 
 ## Key Steps
  
