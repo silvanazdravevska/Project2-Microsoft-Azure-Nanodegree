@@ -12,11 +12,7 @@ In this project a cloud-based machine learning production model is configured, d
 8. Documentation
 
 ## Architectural Diagram
-<h2>
-
-![ScreenShot](/Architectural_Diagram.png)
-
-</h2>
+![image description or alt text](https://github.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/blob/main/starter_files/Screenshots/Architectural_Diagram.pnghttps://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Architectural_Diagram.png)
 
 
 ## Key Steps
