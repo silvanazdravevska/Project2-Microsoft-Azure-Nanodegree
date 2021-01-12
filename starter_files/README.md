@@ -1,7 +1,11 @@
 
 # Project Operationalizing Machine Learning
 
-In this project a cloud-based machine learning production model is configured, deployed and consumed in Azure. Also a pipeline will is created, published and consumed. The dataset being used is a Marketind data from a Bank and its users. The steps followed for this project:
+In this project a cloud-based machine learning production model is configured, deployed and consumed in Azure. Also a pipeline will is created, published and consumed. The dataset being used is a Marketind data from a Bank and its users. 
+
+## Architectural Diagram
+
+The steps followed for this project:
 1. Authentication
 2. Automated ML Experiment
 3. Deploy the best model
@@ -11,12 +15,9 @@ In this project a cloud-based machine learning production model is configured, d
 7. Create and publish a pipeline
 8. Documentation
 
-## Architectural Diagram
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Architectural_Diagram.png)
 
-
 ## Key Steps
- 
 
 Step 1: Authentication
 Creating the "Service Principal" to enter the workspace. This is a good way to authenticate to Azure ML services
@@ -24,12 +25,19 @@ I used the lab Udacity and this was taken care of, so I skiped this step since I
 
 Step 2: Automated ML Experiment
 First the Dataset is being uploaded
-<Screenshot of "Registered Data" showing that Bankmarketing dataset is available>
+Screenshots of "Registered Data" showing that Bankmarketing dataset is available:
+
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Registered_Datasets_in_ML_Studio_1.png)
 
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Registered_Datasets_in_ML_Studio_2.png)
+
 Create an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
-<Screenshot showing that the experiment is showwn as completed>
+Screenshot showing that the experiment is shown as completed:
+
+![Jupyter Notebook view](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_Notebook.png)
+
+![ML Studio view](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_ML_Studio_1.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Experiment_completed_ML_Studio_2.png)
 
 After the experiment run completes all the models and their metrics can be seen. The best model is at the top.
 <Screenshot of the best model after the experiment completes>
