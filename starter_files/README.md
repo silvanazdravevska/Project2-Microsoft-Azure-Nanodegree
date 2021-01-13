@@ -105,7 +105,7 @@ Screenshot showing the Scheduled run
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/ML_Studio_scheduled_run.png)
        
 ## Screen Recording
-Link to a screen recording of the project in action [https://drive.google.com/drive/u/0/my-drive](https://drive.google.com/drive/u/0/my-drive)  
+Link to a screen recording of the project in action [https://drive.google.com/file/d/1Fus7SDQz4uRkIebdgXRnfTAVKPtiYgsp/view?usp=sharing](https://drive.google.com/file/d/1Fus7SDQz4uRkIebdgXRnfTAVKPtiYgsp/view?usp=sharing)  
   
 ## How to improve the project in the future    
 Collect more data to improve the model accuracy
