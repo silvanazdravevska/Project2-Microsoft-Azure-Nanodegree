@@ -26,7 +26,6 @@ I used the lab Udacity and this was taken care of, so I skiped this step since I
 Step 2: Automated ML Experiment
 First the Dataset is being uploaded
 Screenshots of "Registered Data" showing that Bankmarketing dataset is available:
-
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Registered_Datasets_in_ML_Studio_1.png)
 
 ![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Registered_Datasets_in_ML_Studio_2.png)
@@ -73,25 +72,41 @@ Screenshots showing that swagger runs on localhost showing the HTTP API methods 
 
 Step 6: Consume Model Endpoints
 Interact with the trained model. Script endpoint.py
-<Screenshot showing that the endpoint.py script runs against the API producing JSON output from the model>
-    
+Screenshot showing that the endpoint.py script runs against the API producing JSON output from the model
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/endpoint_1.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/endpoint_2.png)
 Benchmark
 Load-test the model
-<Screenshot showing that Apache Benchmark (ab) runs against the HTTP API using authenthication keys ti retreive performance results>
+Screenshot showing that Apache Benchmark (ab) runs against the HTTP API using authenthication keys ti retreive performance results
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Apache_Benchmark_ab.png)
 
 Step 7: Create, Publish and Consume a Pipeline
-<Screenshot The pipeline section, showing the pipeline has been created>
-<Screenshot showing the pipeline endpoint>
-<Screenshot showing the Bankmarketing dataset with the AutoML module>
-<Screenshot The "Published Pipeline Overview", showing a REST endpoint and a status of active>
-<Screenhot in Jupyter Notebook showing that the "Use RunDetails Widget" shows the steps run>
-<Screenshot showing the Scheduled run>
-    
-    
+Screenshot The pipeline section, showing the pipeline has been created
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Pipeline_created_Azure_ML_Studio.png)
+
+Screenshot showing the pipeline endpoint
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Pipeline_Endpoint_Azure_ML_Studio_1.png)
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Pipeline_Endpoint_Azure_ML_Studio_2.png)
+
+Screenshot showing the Bankmarketing dataset with the AutoML module
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/The_Bankmarketing_Dataset_with_the_AutoML_module.png)
+
+Screenshot The "Published Pipeline Overview", showing a REST endpoint and a status of active
+Jupyter Notebook view:
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/REST_endpoint_Notebook.png)
+
+Azure ML Studio view:
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/REST_endpoint_Azure_ML_Studio.png)
+
+Screenhot in Jupyter Notebook showing that the "Use RunDetails Widget" shows the steps run
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/Use_RunDetails_Widget_Notebook.png)
+
+Screenshot showing the Scheduled run
+![](https://raw.githubusercontent.com/silvanazdravevska/Project2-Microsoft-Azure-Nanodegree/main/starter_files/Screenshots/ML_Studio_scheduled_run.png)
+       
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate  
-    
-   
+Link to a screen recording of the project in action ![](https://drive.google.com/drive/u/0/my-drive)  
+  
 ## How to improve the project in the future    
 Collect more data to improve the model accuracy
 Data cleaning and feature engineering will be helpful in improving data quality
